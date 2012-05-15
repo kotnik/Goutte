@@ -9,7 +9,7 @@ HTML/XML responses.
 Requirements
 ------------
 
-Goutte works with PHP 5.3.3 or later.
+Goutte works with PHP 5.3.
 
 Installation
 ------------
@@ -69,10 +69,9 @@ Technical Information
 
 Goutte is a thin wrapper around the following fine PHP libraries:
 
- * Symfony Components: BrowserKit, ClassLoader, CssSelector, DomCrawler,
-   Finder, and Process
+ * Symfony Components: BrowserKit, ClassLoader, CssSelector, DomCrawler, Finder, and Process
 
- * [Guzzle](http://www.guzzlephp.org)
+ * Zend libraries: Date, Uri, Http, and Validator
 
 License
 -------
@@ -80,4 +79,3 @@ License
 Goutte is licensed under the MIT license.
 
 [1]: https://raw.github.com/fabpot/Goutte/master/goutte.phar
-
